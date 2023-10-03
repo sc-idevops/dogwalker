@@ -1,10 +1,13 @@
 version: "3"
 services:
   dogwalker:
+    build:
+      context: .
+      dockerfile: Dockerfile
     image: dogwalker:latest
     container_name: dogwalker
     volumes:
-      - $DATA_DIR:/mnt
+      - ${DATA_DIR}:/mnt
     ports:
-      - $PORT:443
+      - ${PORT}:443
     restart: unless-stopped
