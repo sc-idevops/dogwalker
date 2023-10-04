@@ -1,6 +1,6 @@
 # Dog Walker
 
-I created this simple project to help a friend keep a stream of music going to Youtube 24/7. The name for the project is inspired by his record label called (Walking Dog.)[https://www.thewalkingdog.net/]
+I created this simple project to help a friend keep a stream of music going to Youtube 24/7. The name for the project is inspired by his record label called [Walking Dog.](https://www.thewalkingdog.net/)
 
 ## Docker
 
