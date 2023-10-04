@@ -4,13 +4,12 @@ import os
 dirname = "/mnt/"
 
 key = os.environ["rtmps_key"]
-print("streaming key is: " + key)
 
 while True:
     files = os.listdir(dirname)
     for f in files:
         if ".mp4" in f:
-            cmd = "ffmpeg -threads 3  -re -i " + dirname + f + \
+            cmd = "ffmpeg -threads 3  -re -i " + '"' + dirname + f + '"' + \
                 " -c:v libx264 -preset ultrafast -crf 24 -g 3 -f flv " + key
             print(cmd)
             os.system(cmd)
