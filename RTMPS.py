@@ -3,7 +3,8 @@ import os
 
 dirname = "/mnt/"
 
-key = 'rtmp://a.rtmp.youtube.com/live2/0xx0-xxxx-x000-x0x0-xxxx'
+key = os.environ["rtmps_key"]
+print("streaming key is: " + key)
 
 while True:
     files = os.listdir(dirname)
