@@ -1,3 +1,4 @@
+#!/bin/env python3
 # source: https://zomro.com/blog/faq/213-kak-zapustit-kruglosutochnuju-transljaciju-youtube-na-linux
 import os
 

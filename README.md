@@ -6,6 +6,7 @@ I created this simple project to help a friend keep a stream of music going to Y
 
 General idea is the docker container contains a simple python script that uses ffmpeg to stream the mp4 files to youtube.
 
+Copy the .env.example file to .env and modify to suit your bandwidth, location of files, and streaming key.
 
 ## Considerations
 - [x] Consider storing the streamer key in a secret instead of hard coded into the python file (or you can put it into the env file...)
