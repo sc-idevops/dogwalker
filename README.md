@@ -18,5 +18,3 @@ General idea is the docker container contains a simple python script that uses f
 - I hope docker desktop makes it easy to run this once you point it to the directory of music and give it the creds
 - Does the python script recurse into subdirectories to find music?
     - unfortunately not yet, that will have to be addressed. 
-
-If it ends up not being this simple I'll feel very silly :)
