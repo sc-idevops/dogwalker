@@ -4,8 +4,8 @@ import os
 
 dirname = "/mnt/"
 
-key = os.environ["rtmps_key"]
-brate = os.environ["bitrate"]
+key = os.environ['rtmps_key']
+brate = os.environ['bitrate']
 
 while True:
     files = os.listdir(dirname)
