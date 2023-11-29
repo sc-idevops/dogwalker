@@ -31,3 +31,4 @@ Copy the .env.example file to .env and modify to suit your bandwidth, location o
 
 ### Assumptions
 - The docker container should restart if it disconnects from youtube (maybe)
+    - or I could just set a cron job to automatically restart the container for me daily...
